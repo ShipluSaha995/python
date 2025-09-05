@@ -19,3 +19,17 @@ print(massage.find('WORLD'))  #to find a character
 ##replacement in string
 # massage=massage.replace("WORLD", "Universe")
 print(massage.replace("WORLD", "Universe"))
+
+#string concat
+
+first="Hello"
+second="Adam"
+
+new_massage=first+", "+second+" "+"Welcome"
+print(new_massage)
+
+new_mas="{}, {}. Welcome!." . format(first, second)
+print(new_mas)
+
+new_mas=f"{first}, {second}. Welcome!.\n"
+print(new_mas)
