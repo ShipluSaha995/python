@@ -33,3 +33,5 @@ print(new_mas)
 
 new_mas=f"{first}, {second}. Welcome!.\n"
 print(new_mas)
+
+print(help(str))
