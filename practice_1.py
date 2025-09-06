@@ -10,3 +10,8 @@ birth_year=int(input("Your birth year: "))
 Running_year=int(input("Running Year: "))
 age=Running_year - birth_year
 print("Your age is: ", age)
+
+
+weight=float(input("Enter your weight(pound): "))
+convert=float(weight*0.453592)
+print("Your weight in kilogram is: ", convert)
