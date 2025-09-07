@@ -18,7 +18,7 @@ convert=float(weight*0.453592)
 print("Your weight in kilogram is: ", convert)
 
 """
-
+"""
 #conditional operator
 price=float(input())
 good_credit=input() #take input True or False
@@ -30,4 +30,14 @@ else:
 
 print(f"down payment:${down_payment}")
 
+"""
+#comparision
+name=input()
+
+if len(name)<3:
+    print("Name must be at least 3 characters.\n")
+elif len(name)>50:
+    print("name can be a maximum of 50 characters.\n")
+else:
+    print(f'The name "{name}" looks good.\n')
 

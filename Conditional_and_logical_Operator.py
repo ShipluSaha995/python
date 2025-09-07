@@ -29,6 +29,8 @@ else:
     print("Not eligibl.\n")
 """
 
+#not operator:
+"""
 good_credit= input()
 criminal_records=input()
 
@@ -36,3 +38,4 @@ if good_credit=="True" and not criminal_records=="True":
     print("Eligible for Loan\n")
 else:
     print("Not eligible for loan.\n")
+"""

@@ -32,8 +32,8 @@ print(abs(-2.5))
 
 """
 
-import math
-print(math.ceil(2.9))
+#import math
+#print(math.ceil(2.9))
 
 
 """
@@ -44,4 +44,13 @@ grater than -> 3>2
 less than -> 3<2
 grater or equal -> 3>=2
 less or equal -> 3<=2
+"""
+"""
+temp=float(input())
+if temp>30:
+    print("Its a hot day.\n")
+elif temp<10:
+    print("Its a cold day.\n")
+else:
+    print("It's neither hot or cold.\n")
 """
