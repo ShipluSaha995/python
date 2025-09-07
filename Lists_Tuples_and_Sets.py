@@ -14,8 +14,8 @@ print(course, "\n")
 course.append(course_2) # append is use to add a list in a list 
 print(course, "\n") 
 
-course.remove("History")
+course.remove("History") #remove function deletes the element you wanted to delete from the list
 print(course)
 
-course.pop()
+course.pop()  #pop function deletes the last element from the list
 print(course, "\n")
