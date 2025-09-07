@@ -31,5 +31,5 @@ while True:
         break
 
     else:
-        print("Sorry, invalid command")
-        break
+        print("Sorry, invalid command\n")
+        
