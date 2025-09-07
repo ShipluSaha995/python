@@ -32,6 +32,7 @@ print(f"down payment:${down_payment}")
 
 """
 #comparision
+"""
 name=input()
 
 if len(name)<3:
@@ -41,3 +42,17 @@ elif len(name)>50:
 else:
     print(f'The name "{name}" looks good.\n')
 
+"""
+"""
+weight=float(input("Enter Weight: "))
+word=input("L(bs) or (k)g: ")
+
+if word=="L" or word=="l":
+    convertL=weight*0.45
+    print(f'Your weight in kg : {convertL}\n')
+elif word=="K" or word=="k":
+    convert=weight/0.45
+    print(f'Your weight in pounds: {convert}\n')
+else:
+    print("Invalid Choice.\n")
+"""
