@@ -11,4 +11,4 @@ while count<limit:
         print("\nYou Won!\n")
         break
 else:
-    print("Sorry, Your limit is over\n")
+    print("\nSorry, Your limit is over\n")

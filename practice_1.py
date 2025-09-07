@@ -56,4 +56,28 @@ elif word=="K" or word=="k":
 else:
     print("Invalid Choice.\n")
 """
+## A car game just using command 
+command=""
+while command!="quit":
+    command=input("Enter your comand: ")
+    if command=="start":
+        print("Car Started.....\n")
 
+    elif command=="stop":
+        print("Car Stoped.\n")
+        break
+
+    elif command=="help":
+        print("""
+            start -> to start the car
+            stop -> to stop the car
+            quiet -> to exit  
+        """)
+
+    elif command=="quit":
+        print('Exiting..')
+        break
+
+    else:
+        print("Sorry, invalid command")
+        break
