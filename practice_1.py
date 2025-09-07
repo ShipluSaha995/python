@@ -21,7 +21,7 @@ print("Your weight in kilogram is: ", convert)
 
 #conditional operator
 price=float(input())
-good_credit=input()
+good_credit=input() #take input True or False
 
 if good_credit:
     down_payment=price*0.1
