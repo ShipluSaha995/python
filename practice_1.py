@@ -58,23 +58,23 @@ else:
 """
 ## A car game just using command 
 command=""
-while command!="quit":
+while command!="exit":
     command=input("Enter your comand: ")
     if command=="start":
         print("Car Started.....\n")
 
     elif command=="stop":
-        print("Car Stoped.\n")
-        break
+        print("Car Stopped.\n")
+        
 
     elif command=="help":
         print("""
-            start -> to start the car
-            stop -> to stop the car
-            quiet -> to exit  
+        start -> to start the car
+        stop -> to stop the car
+        exit -> to exit  
         """)
 
-    elif command=="quit":
+    elif command=="exit":
         print('Exiting..')
         break
 
