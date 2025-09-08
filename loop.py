@@ -17,8 +17,8 @@ while(i<=end):
 """
 
 #For loop
-for item in "python":
-    print(item)
+# for item in "python":
+#     print(item)
 
 
 """
@@ -35,3 +35,14 @@ for p in price:
     total += p
 print(f"total ammount is: {total}")
 """
+
+#nasted for loop
+"""
+for i in range(4):
+    for j in range(3):
+        print(f'({i}, {j})')
+"""
+
+numbers=input().split()
+for i in numbers:
+    print('x'*int(i)) 

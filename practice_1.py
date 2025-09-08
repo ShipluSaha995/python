@@ -71,8 +71,34 @@ for i in range(1, 10+1):
     print(i)
 """
 #n=int(input("Enter the total number of items: "))
+"""
 price=input("Enter the prices: ").split()
 total=0
 for i in price:
     total=total+float(i)
 print(f"Total Price: {total}\n")
+"""
+"""
+numbers= input().split()
+for num in numbers:
+    i=int(num)
+    output=""
+    for j in range(i):
+        output+='X'
+    print(output)
+"""
+
+#find the maximum number from the list
+n=int(input())
+number=[]
+
+for num in range(n):
+    element=int(input())
+    number.append(element)
+
+maxi=number[0]
+for i in number:
+    if i>maxi:
+        maxi=i
+
+print(f'maximum:{maxi}')
