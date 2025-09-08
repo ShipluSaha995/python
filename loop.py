@@ -5,7 +5,7 @@ while i<=5:
     print(' *'*i)
     i+=1
 """
-
+"""
 string=input("\ninput the string that you want to print: ")
 i=1
 end=int(input("\nHow many times do you want to print : "))
@@ -14,3 +14,19 @@ while(i<=end):
     print(f"{i}. {string}")
     i+=1
     
+"""
+
+#For loop
+
+price=[]
+n=int(input("Enter how many items do you have: "))
+
+for i in range(n):
+    element=float(input("Enter the price: "))
+    price.append(element)
+print(price)
+
+total=0
+for p in price:
+    total += p
+print(f"total ammount is: {total}")
