@@ -19,3 +19,13 @@ print(course)
 
 course.pop()  #pop function deletes the last element from the list
 print(course, "\n")
+
+#to take user input in list
+n=int(input())
+string=[]
+
+for i in range(n):
+    element=input().split()
+    string.append(element)
+
+print(string)
