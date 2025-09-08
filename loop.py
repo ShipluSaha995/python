@@ -17,7 +17,11 @@ while(i<=end):
 """
 
 #For loop
+for item in "python":
+    print(item)
 
+
+"""
 price=[]
 n=int(input("Enter how many items do you have: "))
 
@@ -30,3 +34,4 @@ total=0
 for p in price:
     total += p
 print(f"total ammount is: {total}")
+"""
