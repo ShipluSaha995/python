@@ -1,5 +1,5 @@
 #lists
-"""
+
 course=['History', 'Physics', 'Math', 'CSE', 'ML']
 print(course,"\n")
 print(course[0:2], "\n")
@@ -21,7 +21,9 @@ print(course)
 course.pop()  #pop function deletes the last element from the list
 print(course, "\n")
 
+
 #to take user input in list
+"""
 n=int(input())
 string=[]
 
@@ -31,3 +33,31 @@ for i in range(n):
 
 print(string)
 """
+course.reverse() #to reverse the list
+print(course)
+
+n=int(input())
+string=[]
+
+for i in range(n):
+    element=input()
+    string.append(element)
+
+print(string)
+
+string.sort() # to sort the elements in the list in aecending order
+print(string)
+
+string.sort(reverse=True) #to sort elements in decending order
+print(string)
+
+sorted_courses=sorted(course) # to get the sorted version of that list in this we ahve to use a variable 
+print(course)
+
+print(max(string)) #to get the maximum value of the list
+print(min(string)) # to get the minimum value
+print(course.index('CSE 205')) # to get the index number of that element
+
+new=['A', 'B', 'c']
+st=", ".join(new) #we can also use .split()
+print(st)

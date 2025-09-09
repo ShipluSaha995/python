@@ -136,3 +136,12 @@ print(numbers)
 
 numbers.pop()
 print(numbers)
+
+numbers.reverse()
+print(numbers)
+
+numbers.sort()
+print(numbers)
+
+numbers.sort(reverse=True)
+print(numbers)
