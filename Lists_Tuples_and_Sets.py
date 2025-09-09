@@ -25,6 +25,7 @@ print(course, "\n")
 
 #to take user input in list
 """
+"""
 n=int(input())
 string=[]
 
@@ -33,6 +34,8 @@ for i in range(n):
     string.append(element)
 
 print(string)
+
+"""
 """
 course.reverse() #to reverse the list
 print(course)
@@ -62,7 +65,17 @@ print(course.index('CSE 205')) # to get the index number of that element
 new=['A', 'B', 'c']
 st=", ".join(new) #we can also use .split()
 print(st)
-
+"""
+"""
+"""
+# tuple
+# tuples are immutable we can not change them
+"""
+tuple_1=('math', 'science', 'history')
+tuple_2=tuple_1
+tuple_1[0]='Art' # we canr change it will give an error
+print(tuple_1)
+print(tuple_2)
 """
 
-#2D list
+
