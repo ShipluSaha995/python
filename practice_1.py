@@ -106,7 +106,7 @@ print(f'maximum:{maxi}')
 """
 
 #list
-
+"""
 n=int(input())
 numbers=[]
 for num in range(n):
@@ -145,3 +145,19 @@ print(numbers)
 
 numbers.sort(reverse=True)
 print(numbers)
+"""
+
+#remove duplicstes
+
+n=int(input())
+number=[]
+
+for i in range(n):
+    element=int(input())
+    number.append(element)
+
+unique=[]
+for num in number:
+    if num not in unique:
+        unique.append(num)
+print(unique)

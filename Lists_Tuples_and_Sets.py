@@ -1,4 +1,5 @@
 #lists
+"""
 
 course=['History', 'Physics', 'Math', 'CSE', 'ML']
 print(course,"\n")
@@ -61,3 +62,7 @@ print(course.index('CSE 205')) # to get the index number of that element
 new=['A', 'B', 'c']
 st=", ".join(new) #we can also use .split()
 print(st)
+
+"""
+
+#2D list
