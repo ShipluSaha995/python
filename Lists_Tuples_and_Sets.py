@@ -1,4 +1,5 @@
 #lists
+"""
 course=['History', 'Physics', 'Math', 'CSE', 'ML']
 print(course,"\n")
 print(course[0:2], "\n")
@@ -29,3 +30,4 @@ for i in range(n):
     string.append(element)
 
 print(string)
+"""

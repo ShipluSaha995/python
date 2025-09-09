@@ -89,6 +89,7 @@ for num in numbers:
 """
 
 #find the maximum number from the list
+"""
 n=int(input())
 number=[]
 
@@ -102,3 +103,36 @@ for i in number:
         maxi=i
 
 print(f'maximum:{maxi}')
+"""
+
+#list
+
+n=int(input())
+numbers=[]
+for num in range(n):
+    element=int(input())
+    numbers.append(element)
+
+print(numbers)
+
+print(numbers[0:2])
+pos= int(input("Enter position: "))
+el=int(input("enter element: "))
+numbers.insert(pos, el)
+print(numbers)
+
+x=int(input("Enter a new list length: "))
+new_num=[]
+for i in range(x):
+    new_element=int(input())
+    new_num.append(new_element)
+
+numbers.extend(new_num)
+print(numbers)
+
+y=int(input("Enter element to remove: "))
+numbers.remove(y)
+print(numbers)
+
+numbers.pop()
+print(numbers)
