@@ -87,4 +87,16 @@ print(course.intersection(course2)) #print the smillar values between both sets
 print(course.difference(course2)) #print the different values between both sets
 print(course.union(course2)) #add both the list together
 
+"""
+# to creat empty list
+empty_list=[]
+empty_list=list()
+
+# to creat empty tuple
+empty_tuple=()
+empty_tuple=tuple()
+
+# to creat empty set
+empty_set=set()
+"""
 
