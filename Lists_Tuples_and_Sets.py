@@ -73,9 +73,18 @@ print(st)
 """
 tuple_1=('math', 'science', 'history')
 tuple_2=tuple_1
-tuple_1[0]='Art' # we canr change it will give an error
+tuple_1[0]='Art' # we can't change it will give an error
 print(tuple_1)
 print(tuple_2)
 """
+
+#sets
+#sets removes duplicates and it doesn't care about orders
+course={'Arts', 'science', 'history', 'bng'}
+course2={'Arts', 'science', 'physics', 'bio'}
+print(course)
+print(course.intersection(course2)) #print the smillar values between both sets
+print(course.difference(course2)) #print the different values between both sets
+print(course.union(course2)) #add both the list together
 
 
