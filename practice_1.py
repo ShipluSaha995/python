@@ -148,7 +148,7 @@ print(numbers)
 """
 
 #remove duplicstes
-
+"""
 n=int(input())
 number=[]
 
@@ -161,3 +161,24 @@ for num in number:
     if num not in unique:
         unique.append(num)
 print(unique)
+"""
+
+phone=input("Phone Number: ")
+number_maping={
+    "0":"Zero",
+    "1":"One",
+    "2":"Two",
+    "3":"Three",
+    "4":"Four",
+    "5":"Five",
+    "6":"Six",
+    "7":"Seven",
+    "8":"Eight",
+    "9":"Nine"
+}
+
+output=""
+for i in phone:
+    output+=number_maping.get(i, "!")+" "
+print("\n")
+print(output,"\n")
