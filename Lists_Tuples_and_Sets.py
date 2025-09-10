@@ -80,13 +80,14 @@ print(tuple_2)
 
 #sets
 #sets removes duplicates and it doesn't care about orders
+"""
 course={'Arts', 'science', 'history', 'bng'}
 course2={'Arts', 'science', 'physics', 'bio'}
 print(course)
 print(course.intersection(course2)) #print the smillar values between both sets
 print(course.difference(course2)) #print the different values between both sets
 print(course.union(course2)) #add both the list together
-
+"""
 """
 # to creat empty list
 empty_list=[]
@@ -100,3 +101,7 @@ empty_tuple=tuple()
 empty_set=set()
 """
 
+#unpacking
+cordiantes=('1', '2', '3')
+x, y, z=cordiantes
+print(x, y, z)
