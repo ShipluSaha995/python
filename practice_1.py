@@ -162,7 +162,7 @@ for num in number:
         unique.append(num)
 print(unique)
 """
-
+"""
 phone=input("Phone Number: ")
 number_maping={
     "0":"Zero",
@@ -182,3 +182,19 @@ for i in phone:
     output+=number_maping.get(i, "!")+" "
 print("\n")
 print(output,"\n")
+"""
+
+#emoji converter
+
+message=input("Enter your massage: ")
+words=message.split()
+
+emoji={
+    ":)":"😊",
+    ":(":"😞"
+}
+
+output=""
+for word in  words:
+    output+=emoji.get(word, words)+" "
+print(output)
