@@ -186,6 +186,7 @@ print(output,"\n")
 
 #emoji converter
 
+"""
 message=input("Enter your massage: ")
 words=message.split()
 
@@ -198,3 +199,19 @@ output=""
 for word in  words:
     output+=emoji.get(word, words)+" "
 print(output)
+"""
+
+class Person:
+    def __init__(self, name):
+        self.name=name
+    def talk(self):
+        print("Talk")
+    def __str__(self):
+        return(f"{self.name}")
+
+# name=input("Enter name: ")
+person=Person(input("Enter name: "))
+print(person)
+person.talk()
+
+
