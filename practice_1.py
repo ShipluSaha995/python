@@ -205,13 +205,12 @@ class Person:
     def __init__(self, name):
         self.name=name
     def talk(self):
-        print("Talk")
+        print(f"Hi, I am {self.name}")
     def __str__(self):
         return(f"{self.name}")
 
 # name=input("Enter name: ")
 person=Person(input("Enter name: "))
-print(person)
 person.talk()
 
 
