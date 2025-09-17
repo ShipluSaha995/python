@@ -214,6 +214,7 @@ person=Person(input("Enter name: "))
 person.talk()
 
 """
+"""
 def lb_to_kg(n):
     print(f"Your weight in kg: {n*0.48:.2f}")
 def kg_to_lb(n):
@@ -231,4 +232,11 @@ elif string=='kg':
 else:
     print("invalid choice.")
 
+"""
 
+def find_max(numbers):
+    maximum=numbers[0]
+    for i in numbers:
+        if i>maximum:
+            maximum=i
+    return maximum
