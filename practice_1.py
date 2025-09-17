@@ -200,7 +200,7 @@ for word in  words:
     output+=emoji.get(word, words)+" "
 print(output)
 """
-
+"""
 class Person:
     def __init__(self, name):
         self.name=name
@@ -212,5 +212,23 @@ class Person:
 # name=input("Enter name: ")
 person=Person(input("Enter name: "))
 person.talk()
+
+"""
+def lb_to_kg(n):
+    print(f"Your weight in kg: {n*0.48:.2f}")
+def kg_to_lb(n):
+    print(f"Your weight in pounds: {n/0.48:.2f}")
+
+string=input("Enter your choice: ")
+if string=='lb':
+    n=float(input("Enter your weight(lb): "))
+    kg_to_lb(n)
+
+elif string=='kg':
+    n=float(input("Enter your weight(kg): "))
+    lb_to_kg(n)
+
+else:
+    print("invalid choice.")
 
 
