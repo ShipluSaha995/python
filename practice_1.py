@@ -233,7 +233,7 @@ else:
     print("invalid choice.")
 
 """
-
+"""
 #used for import this fuction to the modules file
 def find_max(numbers):
     maximum=numbers[0]
@@ -241,3 +241,15 @@ def find_max(numbers):
         if i>maximum:
             maximum=i
     return maximum
+"""
+
+##Dice roll
+import random
+class Dice:
+    def roll(self):
+        first=random.randint(1, 6)
+        second=random.randint(1, 6)
+        return first, second
+
+dice=Dice()
+print(dice.roll())
