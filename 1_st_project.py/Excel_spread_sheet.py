@@ -19,9 +19,9 @@ for row in range(1, sheet.max_row + 1):
 # Update price
 for row in range(2, sheet.max_row + 1):
     cell = sheet.cell(row, 3)
-    if isinstance(cell.value, (int, float)):  # prevent errors
-        corrected_price = cell.value * 0.9
-        sheet.cell(row, 4).value = corrected_price
+    corrected_price=cell.value*0.9
+    corrected_price_cell=sheet.cell(row, 4)
+    corrected_price_cell.value=corrected_price
 
 # Save back to same file
 wb.save("Transaction.xlsx")
